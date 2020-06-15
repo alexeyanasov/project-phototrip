@@ -49,7 +49,7 @@ a {
 }
 
 .container{
-	width: 1255px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -397,7 +397,7 @@ a {
 	}
 
 	.routes__item{
-		width: 48%;
+		width: 100%;
 	}
 
 	.routes__img{
