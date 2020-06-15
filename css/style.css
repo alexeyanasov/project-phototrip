@@ -139,6 +139,12 @@ a {
 	color: #fff;
 }
 
+.header__menu__btn img{
+	display: none;
+	margin-left: 110px;
+	width: 30px;
+}
+
 .next-country__country{
 	font-weight: bold;
 	font-size: 14px;
@@ -369,4 +375,179 @@ a {
 	text-align: center;
 
 	color: rgba(114, 52, 26, 0.6);
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+
+	.header__menu__list{
+		display: none;
+	}
+
+	.next-country{
+		display: none;
+	}
+
+	.header__menu__btn img{
+		display: block;
+	}
+
+	.routes__item{
+		width: 48%;
+	}
+
+	.routes__img{
+		width: 50%;
+	}
+
+	.routes__details span {
+		padding: 3px 7px;
+	}
+
+	.routes__content{
+		font-size: 10px;
+	}
+
+	.about__inner{
+		flex-wrap: wrap-reverse;
+	}
+
+	.about__img{
+		width: 100%;
+		margin-bottom: 29px;
+	}
+
+	.about__content{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 700px;
+		padding: 10px;
+	}
+
+	.nav{
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	.routes__details{
+		flex-wrap: wrap-reverse;
+    	justify-content: flex-end;
+
+	}
+
+	.routes__content .routes__title{
+		font-size: 16px;
+	}
+	
+	.about__inner{
+		padding: 10px;
+	}
+
+	.logo{
+		margin-right: 0;
+	}
+
+	.call-phone{
+		margin-left: 10px;
+	}
+
+	.form{
+		width: 68%;
+	}
+
+	.form input{
+		width: 354px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+
+	.call{
+		display: none;
+	}
+
+	.nav{
+		justify-content: space-between;
+	}
+
+	.routes__item{
+		width: 100%;
+	}
+
+	.contact__inner{
+		flex-wrap: wrap;
+	}
+
+	.form{
+		width: 100%;
+		margin-bottom: 42px;
+	}
+
+	.footer{
+		padding-top: 10px;
+		padding-bottom: 44px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.container{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.routes__item{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.routes__img {
+		width: 100%;
+	}
+
+	.form{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.form input{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.btn__form{
+		width: 100%;
+	}
+
+	.form__title{
+		width: 100%;
+	}
+
+	.offer__title{
+		font-size: 29px;
+		width: 100%;
+	}
+
+	.offer__text{
+		width: 100%;
+	}
+
+	.routes__details{
+		justify-content: space-around;
+	}
+
+	.routes__img{
+		border-radius: 15px 15px 0px 0px;
+	}
 }
